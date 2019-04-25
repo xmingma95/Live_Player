@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="100dp"
+      android:layout_height="100dp">
+
+    <item
+        android:id="@+id/start_live"
+        android:icon="@mipmap/ic_video_camera"
+        android:title="发起直播"/>
+
+    <item
+        android:id="@+id/exit_app"
+        android:icon="@mipmap/ic_exit_app"
+        android:title="退出应用"/>
+
+</menu>

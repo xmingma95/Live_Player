@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#1296db"
+                android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/ib_title_back"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:layout_width="30dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/arr_back"/>
+    <TextView
+        android:layout_toEndOf="@+id/ib_title_back"
+        android:layout_centerVertical="true"
+        android:id="@+id/tv_title"
+        android:layout_marginStart="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Live_Player"
+        android:textSize="22sp"/>
+
+    <ImageButton
+        android:id="@+id/ib_menu_add"
+        android:src="@drawable/menu_add"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="12sp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:layout_alignParentEnd="true"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+</RelativeLayout>

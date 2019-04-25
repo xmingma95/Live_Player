@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="220dp"
+    android:background="@drawable/live_setting_popup_bg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_live_setting_flash"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/flash_text_image"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/icon_flash"/>
+
+        <TextView
+            android:id="@+id/flash_text"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="16sp"
+            android:text="开闪光"
+            android:textColor="#a0a0a0"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:src="#f0f0f0"
+        android:background="#33ffffff"/>
+
+    <LinearLayout
+        android:id="@+id/ll_live_setting_changecamera"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/changecamera_text_image"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/icon_switch_camera_on"/>
+
+        <TextView
+            android:id="@+id/changecamera_text"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="16sp"
+            android:text="翻转"
+            android:textColor="#a0a0a0"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:src="#f0f0f0"
+        android:background="#33ffffff"/>
+
+    <LinearLayout
+        android:id="@+id/ll_live_setting_beauty"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:id="@+id/beauty_text_image"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/icon_beauty_drawable"/>
+
+        <TextView
+            android:id="@+id/beauty_text"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="16sp"
+            android:text="开美颜"
+            android:textColor="#a0a0a0"/>
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:src="#f0f0f0"
+        android:background="#33ffffff"/>
+
+    <LinearLayout
+        android:id="@+id/ll_live_setting_filter"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/icon_beauty_drawable"/>
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="16sp"
+            android:text="滤镜"
+            android:textColor="#a0a0a0"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Live_Player</string>
+    <string name="tab_player">播放器</string>
+    <string name="tab_live">直播</string>
+    <string name="tab_music">音乐</string>
+    <string name="fragment_player_no_video">没有找到视频……</string>
+    <string name="video_item_name">视频的名称</string>
+    <string name="video_item_time">20:00</string>
+    <string name="no_music">没有找到音频文件</string>
+    <string name="listview_header">播放列表</string>
+    <string name="text_publish_title">发布直播</string>
+    <string name="text_cancel">取消</string>
+    <string name="text_publish_picture_setting">给你的直播设置一个满意的封面</string>
+    <string name="text_publish_title_input">请输入直播标题</string>
+    <string name="text_publish_lbs_off">不显示地理位置</string>
+    <string name="text_publish_no_record">不进行录制</string>
+    <string name="text_publish_start">开始直播</string>
+    <string name="dialog_pic">拍照</string>
+    <string name="dialog_photo">从手机相册中选择</string>
+    <string name="dialog_cancel">取消</string>
+</resources>
