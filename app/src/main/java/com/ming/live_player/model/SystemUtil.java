@@ -21,7 +21,8 @@ public class SystemUtil {
     private Formatter mFormatter;
 
     private SystemUtil(Context context){
-        this.context=context;
+        //避免内存泄漏
+        this.context=context.getApplicationContext();
         // 转换成字符串的时间
         mFormatBuilder = new StringBuilder();
         mFormatter = new Formatter(mFormatBuilder, Locale.getDefault());
@@ -30,9 +31,14 @@ public class SystemUtil {
     /**
      * 懒汉模式单例
      */
-    public static synchronized SystemUtil getInstance(Context context){
+    public static SystemUtil getInstance(Context context){
         if(instance==null){
-            instance=new SystemUtil(context);
+            synchronized(SystemUtil.class){
+                if(instance==null){
+                    instance=new SystemUtil(context);
+                }
+            }
+
         }
         return  instance;
     }

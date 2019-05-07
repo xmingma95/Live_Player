@@ -41,7 +41,6 @@ import okhttp3.Response;
 public class LiveDetailPager extends BasePager {
 
     private int position;
-    private TextView mTextView;
     private ListView lv_net_video;
     private TextView tv_netvideo_content;
     private ProgressBar pb_video_loading;
